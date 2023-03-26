@@ -1,0 +1,16 @@
+name: blog-config
+title: Blog TCP/HTTP/SSL configuration
+summary: Validates network configuration of the blog
+maintainer: Sergey Panfilov
+copyright: Sergey Panfilov
+copyright_email: sergray@gmail.com
+license: MIT
+version: 1.0.0
+supports:
+  - inspec: '~> 1.0'
+depends:
+  - name: ssl-certificate-profile
+    git: https://github.com/alexpop/ssl-certificate-profile
+    version: '~> 1.2'
+supports:
+- platform-family: linux

@@ -1,0 +1,9 @@
+---
+lockfile_version: 1
+depends:
+- name: ssl-certificate-profile
+  resolved_source:
+    git: https://github.com/alexpop/ssl-certificate-profile
+    ref: 7b19bbe82eb86179f2ae397b0930f5b68e8f51c5
+  version_constraints:
+  - "~> 1.2"
